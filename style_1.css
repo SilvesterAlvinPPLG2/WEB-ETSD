@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(to right bottom, #8496ac, #55adc6, #00c4bd, #4fd48e, #aeda4b);
+    background-repeat: no-repeat;
+    height: 610px;
+}
+
+body h1 {
+    justify-self: center;
+}
+
+body div.foto img {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
