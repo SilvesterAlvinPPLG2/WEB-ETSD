@@ -1,11 +1,16 @@
 body {
-    background-image: linear-gradient(to right bottom, #8496ac, #55adc6, #00c4bd, #4fd48e, #aeda4b);
+    background-image: linear-gradient( to right bottom, #d6d6d6, #dbdbdb,whitesmoke);
     background-repeat: no-repeat;
     height: 610px;
 }
 
 body h1 {
     justify-self: center;
+    color: #4C4C4C;
+}
+
+body p {
+    color: #4C4C4C;
 }
 
 body div.foto img {

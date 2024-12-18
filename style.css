@@ -1,5 +1,7 @@
 body {
     background-color: whitesmoke;
+    margin: 0%;
+    padding: 0%;
 }
 
 body header {
@@ -38,6 +40,24 @@ body header ul li a {
     text-decoration: none;
 }
 
+a:link {
+    color: gray;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: black;
+} 
+
+main {
+    height: 1600px;
+
+}
+
 main .main1 {
     background-image: url(image/foto-ETSD-33.jpg);
     height: 800px;
@@ -58,4 +78,45 @@ main .main2 {
 
 main div.main1 {
     margin-bottom: 1rem;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+footer div.kalimatfooter h3 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div.kalimatfooter {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+footer div.ingintahu img {
+    height: 35px;
+}
+
+footer div.ingintahu {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 18rem;
+    padding-right: 10px;
+}
+
+footer div.pencipta {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: 50px;
 }

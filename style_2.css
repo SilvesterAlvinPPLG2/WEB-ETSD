@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(to right, #6398e7, #00b7ed, #00ceca, #66db93, #cfdd69);
+    background-image: linear-gradient( to right bottom, #d6d6d6, #dbdbdb,whitesmoke);
+    background-repeat: no-repeat;
+    height: 610px;
 }
 
 body h1 {
