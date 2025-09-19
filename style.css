@@ -73,6 +73,24 @@ main .main1 {
     flex-direction: column;
 }
 
+main .main1 button {
+    margin-top: 40%;
+    margin-left: 100px;
+    border-radius: 260px;
+    height: 5%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
 main .main2 {
     background-image: url(image/foto-ETSD-2.jpg);
     height: 800px;
@@ -82,7 +100,7 @@ main .main2 {
     flex-direction: column;
 }
 
-main div.main1 {
+main .main1 {
     margin-bottom: 1rem;
 }
 
