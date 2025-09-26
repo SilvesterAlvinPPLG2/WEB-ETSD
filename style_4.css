@@ -15,3 +15,23 @@ body img {
 body p {
     text-align: start;
 }
+
+body .cone1 {
+    display: flex;
+}
+
+body .cone2 {
+    display: flex;
+}
+
+body .cone3 {
+    display: flex;
+}
+
+body .cone4 {
+    display: flex;
+}
+
+body .cone5 {
+    display: flex;
+}
